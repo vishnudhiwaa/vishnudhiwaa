@@ -4,3 +4,13 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/vishnudhiwaa/Git_Commands.git
 git push -u origin main
+
+Next Update
+git add .
+git commit-m "added few commands"
+git push-u origin main
+
+
+Add:(Setup=> 1 time activity)
+git config --global user.name"Github_user_name_here"
+git config --global user.email"Github_user_email_here"
