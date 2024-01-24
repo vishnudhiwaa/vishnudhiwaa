@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //JS code
+
+        console.log(1)
+        console.log(typeof(1))
+        console.log("2")
+        console.log("2.2"+"2.2")
+        console.log(typeof(parseInt("2")))
+
+        // codekata
+
+        var userInput=['1','2','3','4']
+        for (var i=0;i<userInput.length;i++){
+            console.log(parseInt(userInput[i]+2))
+        }
+
+        // boolean
+        console.log(typeof(true))
+        console.log(typeof("true"))
+        if(true){
+            console.log(2+2)
+        }
+
+        // composite
+        var arr=[1,2,3,"guvi","geek",true,false]
+        console.log(arr)
+        // length
+        console.log(arr.length)
+
+        arr[10]=45
+        console.log(arr)
+
+        // referring for
+
+        for(var i=0;i<arr.length;i++)
+        console.log(i)
+        
+ 
+    
+        for(var i=0;i<arr.length;i++){
+        console.log(i,arr[i])
+        }
+
+        // object
+        var obj={
+            name:"xyz",
+            class:"10th",
+            hobbies:"singing"
+        }
+        console.log(obj)
+        // insert
+        obj.phone=1234567891
+        console.log(obj)
+
+        obj["landline number"]=345126374896
+        console.log(obj)
+
+        delete obj.hobbies
+        console.log(obj)
+    </script>
+    
+</body>
+</html>
